@@ -121,7 +121,7 @@ const Progress = ({ progress, duration, buffered }: {
 
 
 const progressContentPadding = 10
-const progressHeight = 3.6
+const progressHeight = 5.5
 const progressContentHeight = progressContentPadding * 2 + progressHeight
 const progressHeightSize = scaleSizeH(progressHeight)
 let progressDotSize = scaleSizeW(progressContentHeight * 0.8)
@@ -136,7 +136,7 @@ const styles = createStyle({
   },
   progressBar: {
     height: progressHeight,
-    borderRadius: 4,
+    borderRadius: 3,
   },
   pressBar: {
     position: 'absolute',
